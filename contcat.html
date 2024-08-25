@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/all.css">
+  
+    <link rel="stylesheet" href="/css/all.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min (1).css">
+    <link rel="stylesheet" href="/css/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@700&family=Amatic+SC&family=Bad+Script&family=Pacifico&display=swap" rel="stylesheet">
+ 
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>Alladdin website</title>
+</head>
+
+<body >
+    <header>
+        <div class=" navbarr">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src="photo/Group 43311.png" alt="">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="/about.html">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/contcat.html">Contact Us</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2 search " type="search" placeholder="Search"
+                                    aria-label="Search">
+                                <div class="d-flex align-items-center  gap-2">
+                                    <i class="fa-regular fa-bell text-secondary icoon text-center py-1"></i>
+                                    <i class="fa-solid fa-box text-secondary icoon text-center py-1"></i>
+                                    <i class="fa-regular fa-heart text-secondary icoon text-center py-1"></i>
+                                    <i class="fa-solid fa-cart-shopping text-secondary icoon text-center py-1"></i>
+                                    <i class="fa-regular fa-user text-light icoon2 text-center py-1"></i>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container py-2">
+            <div class="row ">
+                <div class="col col-md-6">
+                    <div class="d-flex">
+                        <a href="#">
+                            <img src="photo/ff43a69f-0650-4b15-91f3-928c8d3abd4a 1@2x.png" width="45"
+                                class="pe-2 imagNav gap-1" alt="">
+                        </a>
+                        <div class="d-flex flex-column">
+                            <span>Default address</span>
+                            <span class="notification">ST7, Shabwa ,Dar Muhaimud ,Yemen</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-md-6">
+                    <div class="d-flex justify-content-md-end m-md-0 mt-2 gap-1 imagNav">
+                        <img src="/photo/Group 1261153500@2x.png" class=" " alt="">
+                        <img src="/photo/Group 1000001178.png" class=" " alt="">
+                        <img src="/photo//Group@2x.png" class=" " alt="">
+                        <img src="/photo/Group.png" class=" " alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class=" ">
+        <h1 class="titel">Contact Us</h1>
+        <div class="groub mx-auto w-50 py-1 d-flex justify-content-center flex-column  ">
+            <div class="groub1-inbut  ms-4 m-2 position-relative">
+                <label for="yourpassword">Name</label>
+                <input id="editenumber" class="form-control" type="password" placeholder="Enter your number">
+                 
+                    <i id="passicon"
+                    class= "fa-solid fa-person  position-absolute  top-50 translate-middle-y  end-0 pe-2 "></i>
+            </div>
+           
+            <div class="groub1-inbut ms-4 m-2 ">
+                <label for="yournumber">Mobile number</label>
+                <div class="position-relative">
+                    <input id="editenumber" class="editenumber form-control position-relative" type="number">
+                    <div class="   mobile position-absolute top-50 start-0 translate-middle-y">
+                        <span>+967</span>
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                    </div>
+                </div>
+            </div>
+          
+            <div class="groub1-inbut  ms-4 m-2 position-relative">
+                <label for="yourpassword">Email</label>
+                <input id="editenumber" class="form-control" type="Email" placeholder="Enter your Email">
+                  
+            </div>
+             
+              <div class="groub1-inbut ms-4 m-2">
+                <label for="exampleFormControlTextarea1">Youer Feedback</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="write here ....."></textarea>
+              </div>
+           
+            <div class="groub-button py-3">
+                <p id="successMessage" class="d-none d-flex justify-content-center align-items-center">Success</p>
+                <p id="warning" class="text-danger  d-none d-flex justify-content-center align-items-center">All inputs is required</p>
+                <p id="warningmessage" class="text-danger  d-none d-flex justify-content-center align-items-center">incorrect name or password</p>
+                <p id="warningemail" class="text-danger  d-none d-flex justify-content-center align-items-center">email already exists</p>
+    <button id="signButton"class="form-control btn btn11 send" value="Send"><a id="homLink" class="d-none" href="./home.html"></a>Send</button>
+ 
+            </div>
+           <div class="text-center "> 
+            <img src="./photo/Group 512262.png" alt="">
+            </div>
+           </div>
+       
+     
+       
+        </div>
+      
+    </section>
+    <footer class="  py-5">
+      
+        <div class="container align-items-center position-relative">
+            <div class="row  ">
+                <div class="col-md-4 ">
+                    <div>
+                        <img src="../photo/Group 43311.png" alt="">
+                        <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt,
+                            mauris ut dictum tincidunt</p>  
+                    </div>
+                   
+  
+                </div>
+              
+                <div class="col-md-4 position-relative">
+                    <div class=" footerLine position-absolute "></div>
+                    <div   >
+                        <h4>Quik Link</h4>
+                        <div class="d-flex flex-column">
+                            <span>About Us</span>
+                            <span>Contact Us</span>
+                            <span>Terms&Conditions</span>
+                            <span>Privacy Policy</span>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="col-md-4 position-relative">
+                    <div class=" footerLine2 position-absolute "></div>
+                    <h4>Contact</h4>
+                    <img src="./photo/Group 512262.png" alt="">
+                    <div class="gap-2 py-2">
+                        <img src="/photo//Group@2x.png" class="w-25 " alt="">
+                        <img src="/photo/Group.png" class=" " alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="position-fixed bottom-0 mt-5 end-0 start-0 copyRight text-center ">
+                <p class="">copyright 2024 |Techlife |All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+      
+         
+      
+   
+ 
+
+    
+    <script src="/js/jquery-3.7.1.min.js"></script>
+     
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/index.js"></script>
+</body>
+
+</html>
